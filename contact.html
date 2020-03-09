@@ -32,56 +32,69 @@
 
     </table>
     <hr>
-<h3>contact us....</h3>
+<h3>contact me....</h3>
 <form action="mailto:se.temesgen.geta@gmail.com" enctype="utf-8" method = "POST">
     <table>
         <tr>
-    <!-- nbsp -->
+<td>
+    <table>
+        <tr>
             <td><label for="fName">First Name:</label></td>
             <td> <input type="text" name = "fName" id="fName" required></td>
+        </tr>
+        <tr>
             <td><label for="sName"> Sure Name:</label></td>
             <td><input type="text" name = "sName" id="sName" required></td>
         </tr>
         <tr>
-            <td> <label for="email">Email:</label></td>
-            <td> <input type="email" name = "email" id = "email" required></td>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" name = "email" id = "email" required></td>
         </tr>
         <tr>
-            <td> <label for="Password">Password:</label></td>
-            <td> <input type="text" name="password" id = "password" required></td>
+            <td><label for="Password">Password:</label></td>
+            <td><input type="text" name="password" id = "password" required></td>
         </tr>
         <tr>
-           <td>
-            where are you from?:
-            <select name="country" id="">
-            <option value = "a">Africa</option>
-            <option value = "b">Asia</option>
-            <option value = "c">America</option></select>
-           </td>
-        </tr>
-        <tr>
-           <td>  
-            what you want to say?
-            <br>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-           </td>
-           <br>
-           <td > 
-            <div class="mapouter" width = "150" length = "150"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" 
-                src="https://maps.google.com/maps?q=AAiT&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                </iframe><a href="https://www.enable-javascript.net/blog/divi-discount/">divi builder demo</a>
-                </div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
-                </style>
-            </div>
-           </td>
-        </tr>
-        <tr>
+            <td><label for="gender">Gender:</label></td>
             <td>
-                <input type="submit" value = "submit"> 
+                <input type="radio" name = "gender" >Male
+                <input type="radio" name = "gender">Female
             </td>
         </tr>
+        <tr>
+            <td><label for="phone">Phone Number:</label></td>
+            <td>
+                <input type="number" name = "phoneNo." id = "phoneid" required>
+            </td>
+        </tr>
+        <tr>
+            <td> where are you from?:</td>
+            <td>
+                <select name="country" id="">
+                    <option value = "a">Africa</option>
+                    <option value = "b">Asia</option>
+                    <option value = "c">America</option></select> 
+            </td>
+        </tr>
+        <tr>
+            <td>what you want to say?
+                <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr><td> <input type="submit" value = "submit"> </td></tr>
     </table>
+</td>
+            <td width = "700%"> 
+                <div class="mapouter" width = "150" length = "150"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" 
+                    src="https://maps.google.com/maps?q=AAiT&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe><a href="https://www.enable-javascript.net/blog/divi-discount/">divi builder demo</a>
+                    </div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+                    </style></div>
+            </td>
+    </tr>
+</table>
+    
 </form>
 <a href="https://twitter.com/" target = "_blank">twitter</a> |
 <a href="https://www.youtube.com/" taget = "_blank">youtube</a> |
