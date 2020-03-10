@@ -43,11 +43,11 @@
     <table>
         <tr>
             <td><label for="fName">First Name:</label></td>
-            <td> <input type="text" name = "fName" id="fName" pattern = "[A-za-z]{1,}" placeholder = "first_name" required></td>
+            <td> <input type="text" name = "fName" id="fName" pattern = "[A-za-z]{1,}" placeholder = "enter first_name" required></td>
         </tr>
         <tr>
             <td><label for="sName"> Surname:</label></td>
-            <td><input type="text" name = "sName" id="sName" pattern = "[A-za-z]{1,}" placeholder = "surname" required></td>
+            <td><input type="text" name = "sName" id="sName" pattern = "[A-za-z]{1,}" placeholder = "enter surname" required></td>
         </tr>
         <tr>
             <td><label for="email">Email:</label></td>
@@ -55,7 +55,7 @@
         </tr>
         <tr>
             <td><label for="Password">Password:</label></td>
-            <td><input type="text" name="password" id = "password" pattern = "[A-za-z0-9]{8,}" placeholder = "password" required></td>
+            <td><input type="text" name="password" id = "password" pattern = "[A-za-z0-9]{8,}" placeholder = "password min of 8 character" required></td>
         </tr>
         <tr>
             <td><label for="gender">Gender:</label></td>
@@ -67,7 +67,16 @@
         <tr>
             <td><label for="phone">Phone Number:</label></td>
             <td>
-                <input type="number" name = "phoneNo." id = "phoneid" placeholder = "Phone_number" required>
+                <select name="phone code" id="">
+                    <option value="a">+251</option>
+                    <option value="b">+994</option>
+                    <option value="c">+246</option>
+                    <option value="d">+33</option>
+                    <option value="f">+39</option>
+                    <option value="g">+254</option>
+                </select>
+                <input type="number" name = "phoneNo." id = "phoneid" placeholder = "enter Phone_number" pattern = [0-9]{10} required>
+                
             </td>
         </tr>
         <tr>
