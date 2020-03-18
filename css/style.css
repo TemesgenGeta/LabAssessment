@@ -162,12 +162,10 @@ table, th, td{
 .house{
     display: grid;
     margin: 50px;
-    background-color: gainsboro;
     grid-template-columns: 40% 50% 10%;
     
 }
 #spacing{
-    
     margin: 20px;
 }
 .forms{
@@ -189,5 +187,11 @@ textarea{
 #media{
     width: 50%;
     margin: 30px;
+}
+#onlySubmit{
+    position: relative;
+    margin-bottom: 1px;
+    width: 100px;
+    height: 50px;
 }
 
