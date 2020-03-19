@@ -3,7 +3,10 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 #H3{
     text-transform: uppercase;
@@ -157,4 +160,5 @@ textarea{
     width: 100px;
     height: 50px;
 }
+
 
