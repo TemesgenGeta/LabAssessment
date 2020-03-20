@@ -76,7 +76,42 @@
                 <p id = "date">March 20, 2020</p>
             </section>
         </div>
-        
+
+        <div id = "content" class = "answer">
+            <section >
+                <p id = "head">What does mean 200px when 16px is default browser font size</p>
+                <article id = "articles">
+                    <p>
+                        In almost every browser, 16px is the standard for proportional fonts,
+                        but there are some browsers like opera mini 7 and AOL 9 have another
+                        default font size. Users can change the default value to anywhere from
+                        9px to 72px. Anyway let me focus on 16px browser and define what does mean
+                        200px and also how the browser interpret.
+                    </p>
+                    <p>
+                        When the default font size is 16px, which is equivalent to 1rem or 1em,
+                         so we can understand what 200px is.
+                    </p>
+                    <p>16px = 1rem</p>
+                    <p>200px = x?</p>
+                    <p>X = 12.5rem</p>
+                    <p>Therefore, when we use 200px, we mean make the font size or something of the element 12.5rem or 12.5em.</p>
+                    <p>Now let us see how the browser interpret it. The browser creates DOM Tree (Document Object Model) and
+                        each node of the tree represents html tag. After the browser created DOM Tree,
+                         it creates map of the css style found in the web pages, which is
+                        called CSS Object Model (CSSOM). Render tree is formed by combining DOM and CSSOM trees,
+                         that is ready to be rendered.</p>
+                    <p>The browser traverses each node of DOM tree starting from the root and select nodes which will be omitted/visible.
+                        For each visible node, appropriate CSSOM rules will be matched. After the browser finds which rules apply to which 
+                        element, it comes to the calculation that we have seen above and then display the result effect on the screen.
+                    </p>
+
+
+                </article>
+                <p id = "date">March 20, 2020</p>
+            </section>
+        </div>
+
     </header>
 </body>
 </html>
