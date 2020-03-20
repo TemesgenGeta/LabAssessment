@@ -2,10 +2,10 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    /* background-color: lightgreen; */
+    font-family: Arial, Helvetica, sans-serif; 
     background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg");
     background-size: cover;
+    /* background-image: url(/images/aa.jpg); */
     background-attachment: fixed;
 }
 #H3{
@@ -19,35 +19,21 @@ body{
 .mar{
     padding-left: 10px;
 }
-#pic{
-    background-color: white;
-    display: inline-table;
-
-}
-#pic2{
-    background-color: white;
-    display: inline-table;
-}
-#pic3{
-    background-color: white;
-    display: inline-table;
-}
 img{
-   
+    float: left;
     width: 30%;
     height: 30%;
     margin: 1.6667%;
 }
-
 @media screen and (max-width: 1500px){
     body{
-        background-color: ivory;
+        background-color: beige;
     }
 }
 
 #png{
     width: 180px;
-    height: 180px;
+    height: 175px;
     float: left;
     margin-right: 15px;
     border-radius: 150px;
@@ -75,7 +61,7 @@ table, th, td{
     padding: 10px;
     margin: 20px 30px;
     box-sizing: border-box;
-    background-color: thistle;
+    background-color: white;
 }
 
 .menu{
@@ -90,7 +76,7 @@ table, th, td{
     display: flex;
 }
 .type{
-    color: yellow;
+    color: green;
     height: 60px;
     font-size: 36px;
     line-height: 60px;
@@ -110,8 +96,11 @@ table, th, td{
     padding: 10px 20px;
     text-decoration: none;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 20px;
     color: red;
+}
+.menu ul li a:hover{
+    background-color: #111;
 }
 .flex-container{
     display: flex;
@@ -150,10 +139,12 @@ textarea{
 .contacts{
     display: block;
 }
+
 #media{
     width: 50%;
     margin: 30px;
 }
+
 #onlySubmit{
     position: relative;
     margin-bottom: 1px;
@@ -161,4 +152,90 @@ textarea{
     height: 50px;
 }
 
+#u{
+    list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden; 
+    margin-right: 150px;
+}
 
+#l{
+    display: inline;
+}
+
+#l #j{
+    display: block;
+	color:white;
+	text-align: center;
+    padding: 50px 16px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 150px;
+	text-decoration: none;
+}
+#l #j:hover{
+    background-color: #111;
+}
+#fb:hover{
+    background-color: white;
+}
+#bg{
+    background: url(/images/aa.jpg) repeat;
+    border: 2px solid black;
+    border-radius: 80%;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
+}
+#og{
+    background: url(/images/ethio.jpg) repeat;
+    border: 2px solid black;
+    margin-left: 70px;
+    padding: 5px;
+    width: 90%;
+
+}
+#opacity{
+    margin: 30px;
+    background-color: white;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+#opacity:hover{
+
+    opacity: 0.2;
+    filter: alpha(opacity=100);
+}
+#opacity p{
+    margin-left: 120px;
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+}
+.answer{
+    border: 1px solid black;
+    margin: 5em 25em;
+    background-color: tan;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#articles{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.8;
+    font-style: italic;
+}
+#head{
+    color: orangered;
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+}
+#date{
+    color: white;
+    font-size: 1rem;
+    font-style: italic;
+}

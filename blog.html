@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class = "navigation">
-        <a href="#" class = "type">MyCv</a>
+        <a href="index.html" class = "type">MyCv</a>
         <div class = "menu">
             <ul>
                 <li> <a href="index.html">Home</a></li>
@@ -34,30 +34,49 @@
     </div>
     
     <header>
-        <div id = "content">
-            <section>
-                <p class = "title">My first post</p>
-                <article>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                            Error quia reprehenderit ab quaerat alias saepe dolore, eaque ex aliquam quasi 
-                            doloribus veniam. Nostrum laudantium suscipit eos ducimus quidem asperiores laboriosam!</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                Error quia reprehenderit ab quaerat alias saepe dolore, eaque ex aliquam quasi 
-                                doloribus veniam. Nostrum laudantium suscipit eos ducimus quidem asperiores laboriosam!</p>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                    Error quia reprehenderit ab quaerat alias saepe dolore, eaque ex aliquam quasi 
-                                    doloribus veniam. Nostrum laudantium suscipit eos ducimus quidem asperiores laboriosam!</p>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                        Error quia reprehenderit ab quaerat alias saepe dolore, eaque ex aliquam quasi 
-                                        doloribus veniam. Nostrum laudantium suscipit eos ducimus quidem asperiores laboriosam!</p>
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                            Error quia reprehenderit ab quaerat alias saepe dolore, eaque ex aliquam quasi 
-                                            doloribus veniam. Nostrum laudantium suscipit eos ducimus quidem asperiores laboriosam!</p>
-                </article>
-                <p class = "date">march 20, 2020</p>
-            </section>
+        <div id = "content" class = "answer">
+            <section >
+                <p id = "head">Responsiveness of relative size units</p>
+                <article id = "articles">
+                    <p>
+                        Let me tell you about css units first to remind you and then I will tell you my own argument. There are two types of css
+                        units: relative and absolute units. Relative units are related to the viewport or font size of an element whereas absolute units
+                        are always constant or the same regardless of viewport or font size.
+                    </p>
+                    <p>
+                            One of the absolute units is px which is common for bordering. 
+                            If I set one value of px for elements, every element will have 
+                            the same value. For instance, let me say my laptop size is 1200 * 700
+                            pixels, which mean that 1200px value of element will fit the width of
+                            laptop screen. If I use 1300px of element, it can’t fit with the screen, 
+                            so it is necessary to scroll horizontally. You may not satisfy the visitor’s
+                            screen. This is what the limitation of using px. Therefore relative units are
+                            necessary.
+                    </p>
+                    <p>
+                            Some of relative units are em and rem which are common for margin/padding and font size
+                            and font size respectively. Em is relative to font size of the element whereas rem is relative to the default 
+                            font size instead of the current element’s font size, the default font size of the browser is
+                            usually 16px. It is common to use relative size em and rem over pixel because they would make our design more accessible.
+                    </p>
+                    <p>
+                            In my view, it is better to use relative size to styling the size of an element.
+                            Even if the browser is providing zoom feature, using relative size is better.
+                            The user should not be bother about how to get the zoom feature of browser, how
+                            to use and adjust font display setting. Not only that but also the UI that is
+                            appeared using relative size is better than using zoom feature of the browser.
+                            If we set a higher default font size, it is not necessary to zoom in browser to
+                            able to read the website because relative units would increase to what font size we want. 
+                            Therefore, I conclude that using relative size for size styling is responsive and
+                            we have to use it.
+                    </p>
 
+
+                </article>
+                <p id = "date">March 20, 2020</p>
+            </section>
         </div>
+        
     </header>
 </body>
 </html>
