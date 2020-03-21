@@ -112,6 +112,7 @@ table, th, td{
     width: 100%;
     height: 80%;
     background-image: url(/images/text2.jfif);
+    background-size: 100% 100%;
 }
 .flex-item{
     width: 50%;
@@ -134,12 +135,19 @@ table, th, td{
     margin: 50px;
 }
 #inputs{
-    width: 100%;
+
     margin: 10px;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+
 }
 textarea{
     width: 100%;
     margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid gray;
 }
 .contacts{
     display: block;
@@ -155,6 +163,10 @@ textarea{
     margin-bottom: 1px;
     width: 100px;
     height: 50px;
+    margin-left: 10px;
+}
+#onlySubmit:hover{
+    background-color: wheat ;
 }
 
 #u{
@@ -168,7 +180,6 @@ textarea{
 #l{
     display: inline;
 }
-
 #l #j{
     display: block;
 	color: saddlebrown;
@@ -177,14 +188,12 @@ textarea{
     font-size: 30px;
     font-weight: 700;
     margin-right: 150px;
-	text-decoration: none;
+    text-decoration: none;
 }
 #l #j:hover{
     background-color: #111;
 }
-#fb:hover{
-    background-color: white;
-}
+
 #bg{
     background: url(/images/aa.jpg) repeat;
     border: 2px solid black;
@@ -229,7 +238,7 @@ textarea{
     font-style: italic;
 }
 #head{
-    color:  ;
+
     text-align: center;
     font-style: normal;
     font-size: 2rem;
@@ -249,10 +258,7 @@ textarea{
 #content3{
     background-image: url(/images/text2.jfif);
 }
-/* #inlineDisplay{
-    display: flex;
 
-} */
 footer{
     border: 1px solid black;
     text-align: center;
